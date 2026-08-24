@@ -6,10 +6,10 @@ Año: 2026
 
 ## Integrantes
 
-Emanuel piriz
-Dalma Soldá
-Adriana Vallejos
-Jose Emiliano Ciarroca
+- Emanuel piriz
+- Dalma Soldá
+- Adriana Vallejos
+- Jose Emiliano Ciarroca
 
 ## 📋 Descripción
 
