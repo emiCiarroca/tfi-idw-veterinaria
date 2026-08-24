@@ -4,6 +4,13 @@ Trabajo Final Integrador — Introducción al Desarrollo Web
 Facultad de Ciencias de la Administración — UNER  
 Año: 2026
 
+## Integrantes
+
+Emanuel piriz
+Dalma Soldá
+Adriana Vallejos
+Jose Emiliano Ciarroca
+
 ## 📋 Descripción
 
 Desarrollo de una aplicación web para la gestión de la atención de mascotas de la clínica veterinaria **"Veterinaria La Mary"**.
