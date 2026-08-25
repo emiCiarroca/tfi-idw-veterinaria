@@ -4,13 +4,6 @@ Trabajo Final Integrador — Introducción al Desarrollo Web
 Facultad de Ciencias de la Administración — UNER  
 Año: 2026
 
-## Integrantes
-
-- Emanuel piriz
-- Dalma Soldá
-- Adriana Vallejos
-- Jose Emiliano Ciarroca
-
 ## 📋 Descripción
 
 Desarrollo de una aplicación web para la gestión de la atención de mascotas de la clínica veterinaria **"Veterinaria La Mary"**.
@@ -46,6 +39,11 @@ El proyecto busca aplicar los conocimientos adquiridos durante la asignatura:
 
 ## 👥 Integrantes
 
+- Emanuel piriz
+- Dalma Soldá
+- Adriana Vallejos
+- Jose Emiliano Ciarroca
+
 | Integrante | Módulo principal | Rama |
 |---|---|---|
 | Nombre Apellido | Veterinarios | `feature/veterinarios` |
@@ -71,32 +69,35 @@ El proyecto busca aplicar los conocimientos adquiridos durante la asignatura:
 # 🗂️ Estructura del proyecto
 
 ```text
-Veterinaria-La-Mary/
+veterinaria-la-mary/
 │
-├── index.html
-├── institucional.html
-├── contacto.html
+├── index.html                   # Portada
+├── institucional.html           # Info institucional
+├── contacto.html                # Contacto
+├── login.html                   # Acceso administrador
 │
-├── pages/
-│   ├── veterinarios.html
-│   ├── mascotas.html
-│   ├── turnos.html
-│   └── historia-clinica.html
+├── admin/
+│   ├── veterinarios.html        # CRUD Veterinarios
+│   ├── turnos.html              # CRUD Turnos
+│   ├── mascotas.html            # CRUD Mascotas
+│   └── historia-clinica.html    # Historia Clínica
 │
 ├── css/
-│   ├── styles.css
-│   └── responsive.css
+│   ├── styles.css                # Estilos generales/compartidos
+│   └── admin.css                 # Estilos específicos del panel admin
+│   
 │
 ├── js/
-│   ├── app.js
-│   ├── storage.js
-│   ├── veterinarios.js
-│   ├── mascotas.js
-│   ├── turnos.js
-│   └── historiaClinica.js
+│   ├── utils.js                  # Funciones compartidas: UID, LocalStorage helpers, validaciones (base común)
+│   ├── auth.js                   # Login simulado y control de rol
+│   ├── veterinarios.js           # Lógica CRUD Veterinarios 
+│   ├── turnos.js                 # Lógica CRUD Turnos 
+│   ├── mascotas.js               # Lógica CRUD Mascotas 
+│   ├── historia-clinica.js       # Lógica Historia Clínica 
+│   └── api.js                    # Consumo de la API REST externa vía fetch 
 │
 ├── assets/
-│   ├── img/
-│   └── icons/
+│   ├── img/                      # Imágenes institucionales, logo, íconos
+│   └── mascotas/                 # (opcional) si no guardan todo en Base64
 │
-└── README.md
+└── README.md                     # Nombres del grupo
